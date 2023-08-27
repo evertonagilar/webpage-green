@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webpage-blue-pod
+  labels:
+    app: webpage-blue
+spec:
+  containers:
+    - name: webpage-blue
+      image: evertonagilar/webpage-blue
+      ports:
+        - containerPort: 8080
+          name: http
+
+
+

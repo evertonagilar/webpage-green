@@ -1,0 +1,11 @@
+{
+  "name": "webpage-green",
+  "version": "1.0.0",
+  "description": "webpage-green",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Everton de Vargas Agilar",
+  "license": "ISC"
+}

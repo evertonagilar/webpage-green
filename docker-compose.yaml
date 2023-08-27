@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  webpage-green:
+    image: evertonagilar/webpage-green:1.0.0
+    build:
+      context: .
+    ports:
+      - 8080:8080
+
